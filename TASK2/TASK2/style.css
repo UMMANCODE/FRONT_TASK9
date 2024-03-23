@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tab {
+  background-color: white;
+  color: black;
+  float: left;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  width: 25%;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: #777;
+}
+
+.content {
+  color: white;
+  display: none;
+  padding: 150px 50px;
+  height: 100%;
+}
+
+.active {
+  display: block;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#Home {
+  background-color: red;
+}
+#News {
+  background-color: green;
+}
+#Contact {
+  background-color: blue;
+}
+#About {
+  background-color: orange;
+}
